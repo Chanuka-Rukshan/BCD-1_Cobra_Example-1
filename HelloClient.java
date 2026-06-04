@@ -21,7 +21,9 @@ public class HelloClient {
             helloWorld.print();
 
         }catch (Exception e){
+
             throw new RuntimeException();
+
         }
 
     }
